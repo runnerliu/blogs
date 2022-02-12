@@ -154,7 +154,7 @@
 - [Python 系列 - 计算密集型任务和 I/O 密集型任务](articles/py-jsmi-iomiji.md)
 - [Python 系列 - librdkafka 的安装和使用](articles/librdkafka.md)
 - [Python 系列 - 项目部署 Nginx + Tornado + Supervisor](articles/py-supervisor-nginx.md)
-- [Tornado5.0.2 翻译文档 - Tornado](articles/tornado502_start.md)
+- [Tornado5.0.2 翻译文档 - Tornado](articles/tornado502-start.md)
 
 ##### Golang
 

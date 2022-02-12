@@ -62,13 +62,13 @@ Tornado 在 [PyPi](http://pypi.python.org/pypi/tornado) 可获取安装列表中
 
 ### 文档
 
-- [用户指南](https://runnerliu.github.io/2018/06/10/tornado502-userguide/#more)
-  - [介绍](https://runnerliu.github.io/2018/06/10/tornado502-introduction/)
-  - [异步和非阻塞 I/O](https://runnerliu.github.io/2018/06/10/tornado502-asnon/#more)
-  - [协程](https://runnerliu.github.io/2018/06/18/tornado502-coroutines/#more)
-  - [Queue 示例-一个并发网络爬虫](https://runnerliu.github.io/2018/06/18/tornado502-concurrentwebspider/#more)
-  - [Tornado 的 web 应用程序结构](https://runnerliu.github.io/2020/12/19/tornado502-structureofweb/#more)
-  - [模板和UI](https://runnerliu.github.io/2020/12/19/tornado502-templateui/#more)
+- [用户指南](tornado502-userguide.md)
+  - [介绍](tornado502-introduction.md)
+  - [异步和非阻塞 I/O](tornado502-asnon.md)
+  - [协程](tornado502-coroutines.md)
+  - [Queue 示例-一个并发网络爬虫](tornado502-concurrentwebspider.md)
+  - [Tornado 的 web 应用程序结构](tornado502-structureofweb.md)
+  - [模板和UI](tornado502-templateui.md)
   - [认证和安全]()
   - [运行和部署]()
 - [Web 框架]()
