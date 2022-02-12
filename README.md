@@ -8,6 +8,8 @@
 
 - [抽象类和接口的区别](articles/concept-abstract-interface.md)
 - [阻塞|非阻塞 - 异步|同步](articles/concept-ze-fze.md)
+- [子进程和线程的区别](articles/concept-thread-subprocess.md)
+- [进程与线程](articles/concept-process-thread.md)
 
 ### 前端
 
@@ -29,6 +31,8 @@
 
 #### 操作系统
 
+- [进程调度算法](articles/process-scheduling.md)
+
 ##### Linux
 
 - [用户态和内核态](articles/linux-yht-nht.md)
@@ -49,6 +53,8 @@
 
 ##### Windows
 
+- [Windows 查看端口占用并关闭进程](articles/win-kill-process.md)
+
 #### 设计模式
 
 - [重构改善既有代码的设计 - 代码的坏味道](articles/bad-taste-of-code.md)
@@ -63,6 +69,8 @@
 - [URL 请求过程](articles/url-request-process.md)
 - [I/O 多路复用](articles/io-multiplexing.md)
 - [聊聊WS和WSS](articles/ws-wss.md)
+- [聊聊 WebSocket 与 Socket.IO](articles/websocket-socketio.md)
+- [Websocket 与 Socket 的区别](articles/websocket-socket.md)
 
 #### Web 开发
 
@@ -80,6 +88,7 @@
 - [Mysql 系列 - explain](articles/mysql-explain.md)
 - [Mysql 系列 - 回表查询和覆盖索引](articles/mysql-huibiao.md)
 - [Mysql 系列 - 事务](articles/mysql-transaction.md)
+- [Mysql 索引 - UNIQUE KEY 与 PRIMARY KEY](articles/)
 
 #### 缓存
 
@@ -123,6 +132,13 @@
 
 - [PHP 系列 - 垃圾回收机制](articles/php-gc.md)
 - [PHP 系列 - FCGI 与 FPM](articles/php-fpm-fcgi.md)
+- [PHP 系列 - $_SERVER](articles/php-server.md)
+- [PHP 系列 - self,final,static,this,parent](articles/php-keywords.md)
+- [PHP 系列 - 变量的内部存储（值和类型）](articles/php-varinternstore-01.md)
+- [PHP 系列 - 变量的内部存储（引用和计数）](articles/php-varinternstore-02.md)
+- [Laravel 系列 - 后台用户认证](articles/php-laravel-adminlogin.md)
+- [Laravel 系列 - 用户登录实现及注册源码初探](articles/php-laravel-userlogin.md)
+- [Laravel 系列 - 理解控制反转(IoC)和依赖注入(DI)](articles/php-laravel-ioc-di.md)
 
 ##### Python
 
@@ -131,10 +147,14 @@
 - [Python 库 - celery](articles/py-celery.md)
 - [Python 库 - gevent](articles/py-gevent.md)
 - [Python 库 - watchdog](articles/py-watchdog.md)
+- [Python 库 - Transitions](articles/py-transitions.md)
+- [Python 库 - SQLAlchemy 事务异常](articles/py-sqlalchemy-01.md)
 - [Python 系列 - 上下文管理器](articles/py-contextmanager.md)
 - [Python 系列 - 垃圾回收机制](articles/py-gc.md)
 - [Python 系列 - 计算密集型任务和 I/O 密集型任务](articles/py-jsmi-iomiji.md)
 - [Python 系列 - librdkafka 的安装和使用](articles/librdkafka.md)
+- [Python 系列 - 项目部署 Nginx + Tornado + Supervisor](articles/py-supervisor-nginx.md)
+- [Tornado5.0.2 翻译文档 - Tornado](articles/tornado502_start.md)
 
 ##### Golang
 
@@ -144,4 +164,5 @@
 
 ### 算法
 
+- [排序算法总结](articles/sort-algorithm.md)
 - [约瑟夫环](articles/joseph-ring.md)
