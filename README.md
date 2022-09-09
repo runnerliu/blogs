@@ -149,6 +149,7 @@
 - [Python 库 - watchdog](articles/py-watchdog.md)
 - [Python 库 - Transitions](articles/py-transitions.md)
 - [Python 库 - SQLAlchemy 事务异常](articles/py-sqlalchemy-01.md)
+- [Python 库 - isort](articles/py-isort.md)
 - [Python 系列 - 上下文管理器](articles/py-contextmanager.md)
 - [Python 系列 - 垃圾回收机制](articles/py-gc.md)
 - [Python 系列 - 计算密集型任务和 I/O 密集型任务](articles/py-jsmi-iomiji.md)
@@ -161,6 +162,7 @@
 - [GO 系列 - 学习资料](articles/go-series.md)
 - [GO 系列 - 数据类型](articles/go-datatype.md)
 - [GO 系列 - 垃圾回收机制](articles/go-gc.md)
+- [GO 库 - ants](articles/go-lib-ants.md)
 
 ### 算法
 
