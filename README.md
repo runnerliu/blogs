@@ -174,6 +174,7 @@
 
 #### Python
 
+- [Python 文档](https://docs.python.org/zh-cn/3/library/index.html)
 - [Python 库 - requests 会话对象](articles/py-requests-session.md)
 - [Python 库 - functools lru_cache](articles/py-functools-cache.md)
 - [Python 库 - celery](articles/py-celery.md)
@@ -195,6 +196,9 @@
 - [GO 系列 - 数据类型](articles/go-datatype.md)
 - [GO 系列 - 垃圾回收机制](articles/go-gc.md)
 - [GO 库 - ants](articles/go-lib-ants.md)
+- [GO 库 - structs](https://github.com/fatih/structs)
+- [GO 库 - mergo](https://github.com/imdario/mergo)
+- [GO 库 - resty](https://github.com/go-resty/resty)
 
 ## 算法
 
