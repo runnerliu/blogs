@@ -199,6 +199,7 @@
 - [GO 库 - structs](https://github.com/fatih/structs)
 - [GO 库 - mergo](https://github.com/imdario/mergo)
 - [GO 库 - resty](https://github.com/go-resty/resty)
+- [GO 库 - validator](articles/go-validator.md)
 
 ## 算法
 
