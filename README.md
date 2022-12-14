@@ -50,6 +50,7 @@
 
 ### 架构
 
+- [流量治理组件 - Sentinel](articles/sentinel.md)
 - [DDD系列 - 资料汇总](articles/ddd-learn.md)
 - [秒杀系统设计 01 - 秒杀系统架构设计都有哪些关键点？](articles/miaosha-01.md)
 - [秒杀系统设计 02 - 设计秒杀系统时应该注意的5个架构原则](articles/miaosha-02.md)
