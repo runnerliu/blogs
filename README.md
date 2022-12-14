@@ -40,6 +40,7 @@
 - [阻塞|非阻塞 - 异步|同步](articles/concept-ze-fze.md)
 - [子进程和线程的区别](articles/concept-thread-subprocess.md)
 - [进程与线程](articles/concept-process-thread.md)
+- [僵尸进程、孤儿进程、守护进程](articles/zombie-orphan-Daemons.md)
 
 ## 前端
 
