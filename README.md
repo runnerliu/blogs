@@ -95,7 +95,7 @@
       * PHP
         * [PHP 系列 - 垃圾回收机制](articles/php-gc.md)
         * [PHP 系列 - FCGI 与 FPM](articles/php-fpm-fcgi.md)
-        * [PHP 系列 - $_SERVER](articles/php-server.md)
+        * [PHP 系列 - $\_SERVER](articles/php-server.md)
         * [PHP 系列 - self,final,static,this,parent](articles/php-keywords.md)
         * [PHP 系列 - 变量的内部存储（值和类型）](articles/php-varinternstore-01.md)
         * [PHP 系列 - 变量的内部存储（引用和计数）](articles/php-varinternstore-02.md)
