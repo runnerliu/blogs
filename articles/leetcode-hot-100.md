@@ -1,14 +1,8 @@
-# 题目列表
+## 题目列表
 
-- [简单](#简单)
-- [中等](#中等)
-- [困难](#困难)
+### 简单
 
-------
-
-## 简单
-
-### 1. 两数之和
+#### 1. 两数之和
 
 LeetCode地址: https://leetcode-cn.com/problems/two-sum/
 
@@ -27,7 +21,7 @@ class Solution:
         return []
 ```
 
-### 7. 整数反转
+#### 7. 整数反转
 
 LeetCode地址：https://leetcode-cn.com/problems/reverse-integer/
 
@@ -48,7 +42,7 @@ class Solution:
         return x_s if x_s >= -2**31 and x_s <= (2**31 - 1) else 0
 ```
 
-### 20. 有效的括号
+#### 20. 有效的括号
 
 LeetCode地址: https://leetcode-cn.com/problems/valid-parentheses/
 
@@ -66,7 +60,7 @@ class Solution(object):
         return s == ''
 ```
 
-### 21. 合并两个有序链表
+#### 21. 合并两个有序链表
 
 LeetCode地址: https://leetcode-cn.com/problems/merge-two-sorted-lists/
 
@@ -88,7 +82,7 @@ class Solution:
             return l2
 ```
 
-### 53. 最大子序和
+#### 53. 最大子序和
 
 LeetCode地址: https://leetcode-cn.com/problems/maximum-subarray/
 
@@ -140,7 +134,7 @@ class Solution(object):
         return max_sum
 ```
 
-### 70. 爬楼梯
+#### 70. 爬楼梯
 
 LeetCode地址: https://leetcode-cn.com/problems/climbing-stairs/
 
@@ -157,7 +151,7 @@ class Solution:
         return b
 ```
 
-### 94. 二叉树的中序遍历
+#### 94. 二叉树的中序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
 
@@ -189,7 +183,7 @@ class Solution(object):
         return res
 ```
 
-### 101. 对称二叉树
+#### 101. 对称二叉树
 
 LeetCode地址: https://leetcode-cn.com/problems/symmetric-tree/
 
@@ -217,7 +211,7 @@ class Solution:
         return dfs(root.left, root.right)
 ```
 
-### 104. 二叉树的最大深度
+#### 104. 二叉树的最大深度
 
 LeetCode地址: https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
 
@@ -242,7 +236,7 @@ class Solution(object):
             return max(left_height, right_height) + 1
 ```
 
-### 121. 买卖股票的最佳时机
+#### 121. 买卖股票的最佳时机
 
 LeetCode地址: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
 
@@ -257,7 +251,7 @@ class Solution:
         return lirui
 ```
 
-### 136. 只出现一次的数字
+#### 136. 只出现一次的数字
 
 LeetCode地址: https://leetcode-cn.com/problems/single-number/
 
@@ -282,7 +276,7 @@ class Solution:
         return res
 ```
 
-### 141. 环形链表
+#### 141. 环形链表
 
 LeetCode地址: https://leetcode-cn.com/problems/linked-list-cycle/
 
@@ -306,7 +300,7 @@ class Solution:
         return False
 ```
 
-### 155. 最小栈
+#### 155. 最小栈
 
 LeetCode地址: https://leetcode-cn.com/problems/min-stack/
 
@@ -338,7 +332,7 @@ class MinStack:
         return self.stack[-1][1]
 ```
 
-### 160. 相交链表
+#### 160. 相交链表
 
 LeetCode地址: https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
 
@@ -358,7 +352,7 @@ class Solution:
         return A
 ```
 
-### 169. 多数元素
+#### 169. 多数元素
 
 LeetCode地址: https://leetcode-cn.com/problems/majority-element/
 
@@ -374,7 +368,7 @@ class Solution:
         return max(memo, key=memo.get)
 ```
 
-### 172. 阶乘后的零
+#### 172. 阶乘后的零
 
 LeetCode地址: https://leetcode-cn.com/problems/factorial-trailing-zeroes/
 
@@ -390,7 +384,7 @@ class Solution:
         return count
 ```
 
-### 206. 反转链表
+#### 206. 反转链表
 
 LeetCode地址: https://leetcode-cn.com/problems/reverse-linked-list/
 
@@ -413,7 +407,7 @@ class Solution(object):
         return prev
 ```
 
-### 226. 翻转二叉树
+#### 226. 翻转二叉树
 
 LeetCode地址: https://leetcode-cn.com/problems/invert-binary-tree/
 
@@ -434,7 +428,7 @@ class Solution:
         return root
 ```
 
-### 234. 回文链表
+#### 234. 回文链表
 
 LeetCode地址: https://leetcode-cn.com/problems/palindrome-linked-list/
 
@@ -457,7 +451,7 @@ class Solution:
         return tmp == tmp[::-1]
 ```
 
-### 283. 移动零
+#### 283. 移动零
 
 LeetCode地址: https://leetcode-cn.com/problems/move-zeroes/
 
@@ -501,7 +495,7 @@ class Solution(object):
         return nums
 ```
 
-### 448. 找到所有数组中消失的数字
+#### 448. 找到所有数组中消失的数字
 
 LeetCode地址: https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/
 
@@ -513,7 +507,7 @@ class Solution:
         return list(set(range(1, len(nums) + 1)).difference(set(nums)))
 ```
 
-### 461. 汉明距离
+#### 461. 汉明距离
 
 LeetCode地址: https://leetcode-cn.com/problems/hamming-distance/
 
@@ -528,7 +522,7 @@ class Solution:
         return c
 ```
 
-### 543. 二叉树的直径
+#### 543. 二叉树的直径
 
 LeetCode地址: https://leetcode-cn.com/problems/diameter-of-binary-tree/
 
@@ -554,7 +548,7 @@ class Solution:
         return self.ans - 1
 ```
 
-### 559. N 叉树的最大深度
+#### 559. N 叉树的最大深度
 
 LeetCode地址: https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 
@@ -577,7 +571,7 @@ class Solution:
         return d
 ```
 
-### 589. N 叉树的前序遍历
+#### 589. N 叉树的前序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
 
@@ -605,7 +599,7 @@ class Solution:
         return res
 ```
 
-### 590. N 叉树的后序遍历
+#### 590. N 叉树的后序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/
 
@@ -633,7 +627,7 @@ class Solution:
         return res
 ```
 
-### 617. 合并二叉树
+#### 617. 合并二叉树
 
 LeetCode地址: https://leetcode-cn.com/problems/merge-two-binary-trees/
 
@@ -656,9 +650,9 @@ class Solution:
         return newTree
 ```
 
-## 中等
+### 中等
 
-### 2. 两数相加
+#### 2. 两数相加
 
 LeetCode地址: https://leetcode-cn.com/problems/add-two-numbers/
 
@@ -689,7 +683,7 @@ class Solution(object):
         return head
 ```
 
-### 3. 无重复字符的最长子串
+#### 3. 无重复字符的最长子串
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
@@ -709,7 +703,7 @@ class Solution:
         return max_len
 ```
 
-### 5. 最长回文子串
+#### 5. 最长回文子串
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-palindromic-substring/
 
@@ -739,7 +733,7 @@ class Solution:
         return s[start:start + max_len]
 ```
 
-### 11. 盛最多水的容器
+#### 11. 盛最多水的容器
 
 LeetCode地址: https://leetcode-cn.com/problems/container-with-most-water/
 
@@ -761,7 +755,7 @@ class Solution:
         return res
 ```
 
-### 15. 三数之和
+#### 15. 三数之和
 
 LeetCode地址: https://leetcode-cn.com/problems/3sum/
 
@@ -800,7 +794,7 @@ class Solution:
         return res
 ```
 
-### 17. 电话号码的字母组合
+#### 17. 电话号码的字母组合
 
 LeetCode地址: https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
 
@@ -816,7 +810,7 @@ class Solution:
         return product
 ```
 
-### 19. 删除链表的倒数第 N 个结点
+#### 19. 删除链表的倒数第 N 个结点
 
 LeetCode地址: https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
 
@@ -845,7 +839,7 @@ class Solution:
         return head
 ```
 
-### 22. 括号生成
+#### 22. 括号生成
 
 LeetCode地址: https://leetcode-cn.com/problems/generate-parentheses/
 
@@ -862,7 +856,7 @@ class Solution:
         return dp[n]
 ```
 
-### 31. 下一个排列
+#### 31. 下一个排列
 
 LeetCode地址: https://leetcode-cn.com/problems/next-permutation/
 
@@ -882,7 +876,7 @@ class Solution:
         return nums
 ```
 
-### 33. 搜索旋转排序数组
+#### 33. 搜索旋转排序数组
 
 LeetCode地址: https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
 
@@ -909,7 +903,7 @@ class Solution:
         return -1
 ```
 
-### 34. 在排序数组中查找元素的第一个和最后一个位置
+#### 34. 在排序数组中查找元素的第一个和最后一个位置
 
 LeetCode地址: https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
@@ -935,7 +929,7 @@ class Solution:
         return [left, right]
 ```
 
-### 39. 组合总和
+#### 39. 组合总和
 
 LeetCode地址: https://leetcode-cn.com/problems/combination-sum/
 
@@ -958,7 +952,7 @@ class Solution:
         return res
 ```
 
-### 46. 全排列
+#### 46. 全排列
 
 LeetCode地址: https://leetcode-cn.com/problems/permutations/
 
@@ -976,7 +970,7 @@ class Solution:
         return res
 ```
 
-### 48. 旋转图像
+#### 48. 旋转图像
 
 LeetCode地址: https://leetcode-cn.com/problems/rotate-image/
 
@@ -1000,7 +994,7 @@ class Solution:
             pos2 -= 1
 ```
 
-### 49. 字母异位词分组
+#### 49. 字母异位词分组
 
 LeetCode地址: https://leetcode-cn.com/problems/group-anagrams/
 
@@ -1017,7 +1011,7 @@ class Solution:
         return [v for v in r.values()]
 ```
 
-### 50. Pow(x, n)
+#### 50. Pow(x, n)
 
 LeetCode地址: https://leetcode-cn.com/problems/powx-n/
 
@@ -1050,7 +1044,7 @@ class Solution:
         return res
 ```
 
-### 55. 跳跃游戏
+#### 55. 跳跃游戏
 
 LeetCode地址: https://leetcode-cn.com/problems/jump-game/
 
@@ -1064,7 +1058,7 @@ class Solution:
         return max_i >= i
 ```
 
-### 56. 合并区间
+#### 56. 合并区间
 
 LeetCode地址: https://leetcode-cn.com/problems/merge-intervals/
 
@@ -1083,35 +1077,35 @@ class Solution:
         return res
 ```
 
-### 62. 不同路径
+#### 62. 不同路径
 
 LeetCode地址: https://leetcode-cn.com/problems/unique-paths/
 
-### 64. 最小路径和
+#### 64. 最小路径和
 
 LeetCode地址: https://leetcode-cn.com/problems/minimum-path-sum/
 
-### 75. 颜色分类
+#### 75. 颜色分类
 
 LeetCode地址: https://leetcode-cn.com/problems/sort-colors/
 
-### 78. 子集
+#### 78. 子集
 
 LeetCode地址: https://leetcode-cn.com/problems/subsets/
 
-### 79. 单词搜索
+#### 79. 单词搜索
 
 LeetCode地址: https://leetcode-cn.com/problems/word-search/
 
-### 96. 不同的二叉搜索树
+#### 96. 不同的二叉搜索树
 
 LeetCode地址: https://leetcode-cn.com/problems/unique-binary-search-trees/
 
-### 98. 验证二叉搜索树
+#### 98. 验证二叉搜索树
 
 LeetCode地址: https://leetcode-cn.com/problems/validate-binary-search-tree/
 
-### 102. 二叉树的层序遍历
+#### 102. 二叉树的层序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
 
@@ -1143,7 +1137,7 @@ class Solution:
         return list(res.values())
 ```
 
-### 103. 二叉树的锯齿形层序遍历
+#### 103. 二叉树的锯齿形层序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/Binary-Tree-Zigzag-Level-Order-Traversal/
 
@@ -1178,11 +1172,11 @@ class Solution:
         
 ```
 
-### 105. 从前序与中序遍历序列构造二叉树
+#### 105. 从前序与中序遍历序列构造二叉树
 
 LeetCode地址: https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 
-### 113. 路径总和 II
+#### 113. 路径总和 II
 
 LeetCode地址：https://leetcode-cn.com/problems/path-sum-ii/
 
@@ -1213,23 +1207,23 @@ class Solution:
         return ress
 ```
 
-### 114. 二叉树展开为链表
+#### 114. 二叉树展开为链表
 
 LeetCode地址: https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/
 
-### 128. 最长连续序列
+#### 128. 最长连续序列
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-consecutive-sequence/
 
-### 139. 单词拆分
+#### 139. 单词拆分
 
 LeetCode地址: https://leetcode-cn.com/problems/word-break/
 
-### 142. 环形链表 II
+#### 142. 环形链表 II
 
 LeetCode地址: https://leetcode-cn.com/problems/linked-list-cycle-ii/
 
-### 146. LRU 缓存机制
+#### 146. LRU 缓存机制
 
 LeetCode地址: https://leetcode-cn.com/problems/lru-cache/
 
@@ -1318,31 +1312,31 @@ class LRUCache:
         return node
 ```
 
-### 148. 排序链表
+#### 148. 排序链表
 
 LeetCode地址: https://leetcode-cn.com/problems/sort-list/
 
-### 152. 乘积最大子数组
+#### 152. 乘积最大子数组
 
 LeetCode地址: https://leetcode-cn.com/problems/maximum-product-subarray/
 
-### 198. 打家劫舍
+#### 198. 打家劫舍
 
 LeetCode地址: https://leetcode-cn.com/problems/house-robber/
 
-### 200. 岛屿数量
+#### 200. 岛屿数量
 
 LeetCode地址: https://leetcode-cn.com/problems/number-of-islands/
 
-### 207. 课程表
+#### 207. 课程表
 
 LeetCode地址: https://leetcode-cn.com/problems/course-schedule/
 
-### 208. 实现 Trie (前缀树)
+#### 208. 实现 Trie (前缀树)
 
 LeetCode地址: https://leetcode-cn.com/problems/implement-trie-prefix-tree/
 
-### 215. 数组中的第K个最大元素
+#### 215. 数组中的第K个最大元素
 
 LeetCode地址: https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
 
@@ -1409,67 +1403,67 @@ def max_nums(nums):
     return m
 ```
 
-### 221. 最大正方形
+#### 221. 最大正方形
 
 LeetCode地址: https://leetcode-cn.com/problems/maximal-square/
 
-### 236. 二叉树的最近公共祖先
+#### 236. 二叉树的最近公共祖先
 
 LeetCode地址: https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
-### 238. 除自身以外数组的乘积
+#### 238. 除自身以外数组的乘积
 
 LeetCode地址: https://leetcode-cn.com/problems/product-of-array-except-self/
 
-### 240. 搜索二维矩阵 II
+#### 240. 搜索二维矩阵 II
 
 LeetCode地址: https://leetcode-cn.com/problems/search-a-2d-matrix-ii/
 
-### 279. 完全平方数
+#### 279. 完全平方数
 
 LeetCode地址: https://leetcode-cn.com/problems/perfect-squares/
 
-### 287. 寻找重复数
+#### 287. 寻找重复数
 
 LeetCode地址: https://leetcode-cn.com/problems/find-the-duplicate-number/
 
-### 300. 最长递增子序列
+#### 300. 最长递增子序列
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-increasing-subsequence/
 
-### 309. 最佳买卖股票时机含冷冻期
+#### 309. 最佳买卖股票时机含冷冻期
 
 LeetCode地址: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 
-### 322. 零钱兑换
+#### 322. 零钱兑换
 
 LeetCode地址: https://leetcode-cn.com/problems/coin-change/
 
-### 337. 打家劫舍 III
+#### 337. 打家劫舍 III
 
 LeetCode地址: https://leetcode-cn.com/problems/house-robber-iii/
 
-### 347. 前 K 个高频元素
+#### 347. 前 K 个高频元素
 
 LeetCode地址: https://leetcode-cn.com/problems/top-k-frequent-elements/
 
-### 394. 字符串解码
+#### 394. 字符串解码
 
 LeetCode地址: https://leetcode-cn.com/problems/decode-string/
 
-### 399. 除法求值
+#### 399. 除法求值
 
 LeetCode地址: https://leetcode-cn.com/problems/evaluate-division/
 
-### 406. 根据身高重建队列
+#### 406. 根据身高重建队列
 
 LeetCode地址: https://leetcode-cn.com/problems/queue-reconstruction-by-height/
 
-### 416. 分割等和子集
+#### 416. 分割等和子集
 
 LeetCode地址: https://leetcode-cn.com/problems/partition-equal-subset-sum/
 
-### 429. N 叉树的层序遍历
+#### 429. N 叉树的层序遍历
 
 LeetCode地址: https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
 
@@ -1500,15 +1494,15 @@ class Solution:
         return res
 ```
 
-### 437. 路径总和 III
+#### 437. 路径总和 III
 
 LeetCode地址: https://leetcode-cn.com/problems/path-sum-iii/
 
-### 438. 找到字符串中所有字母异位词
+#### 438. 找到字符串中所有字母异位词
 
 LeetCode地址: https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 
-### 470. 用 Rand7() 实现 Rand10()
+#### 470. 用 Rand7() 实现 Rand10()
 
 LeetCode地址: https://leetcode-cn.com/problems/implement-rand10-using-rand7/
 
@@ -1529,27 +1523,27 @@ class Solution:
 利用(randX() - 1) * X + randX() 可以等概率的生成[1, X * X]范围的随机数
 ```
 
-### 494. 目标和
+#### 494. 目标和
 
 LeetCode地址: https://leetcode-cn.com/problems/target-sum/
 
-### 538. 把二叉搜索树转换为累加树
+#### 538. 把二叉搜索树转换为累加树
 
 LeetCode地址: https://leetcode-cn.com/problems/convert-bst-to-greater-tree/
 
-### 560. 和为K的子数组
+#### 560. 和为K的子数组
 
 LeetCode地址: https://leetcode-cn.com/problems/subarray-sum-equals-k/
 
-### 581. 最短无序连续子数组
+#### 581. 最短无序连续子数组
 
 LeetCode地址: https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/
 
-### 621. 任务调度器
+#### 621. 任务调度器
 
 LeetCode地址: https://leetcode-cn.com/problems/task-scheduler/
 
-### 647. 回文子串
+#### 647. 回文子串
 
 LeetCode地址: https://leetcode-cn.com/problems/palindromic-substrings/
 
@@ -1575,11 +1569,11 @@ class Solution:
         return ans
 ```
 
-### 739. 每日温度
+#### 739. 每日温度
 
 LeetCode地址: https://leetcode-cn.com/problems/daily-temperatures/
 
-### 1143. 最长公共子序列
+#### 1143. 最长公共子序列
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-common-subsequence/
 
@@ -1618,7 +1612,7 @@ def longestCommonSubsequence(text1, text2) -> (str, int):
     return text1[end - max_len:end], max_len
 ```
 
-### 1254. 统计封闭岛屿的数目
+#### 1254. 统计封闭岛屿的数目
 
 LeetCode地址: https://leetcode-cn.com/problems/number-of-closed-islands/
 
@@ -1655,21 +1649,21 @@ class Solution:
         return count
 ```
 
-## 困难
+### 困难
 
-### 4. 寻找两个正序数组的中位数
+#### 4. 寻找两个正序数组的中位数
 
 LeetCode地址: https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
 
-### 10. 正则表达式匹配
+#### 10. 正则表达式匹配
 
 LeetCode地址: https://leetcode-cn.com/problems/regular-expression-matching/
 
-### 23. 合并K个升序链表
+#### 23. 合并K个升序链表
 
 LeetCode地址: https://leetcode-cn.com/problems/merge-k-sorted-lists/
 
-### 32. 最长有效括号
+#### 32. 最长有效括号
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-valid-parentheses/
 
@@ -1687,54 +1681,54 @@ class Solution:
         return l
 ```
 
-### 42. 接雨水
+#### 42. 接雨水
 
 LeetCode地址: https://leetcode-cn.com/problems/trapping-rain-water/
 
-### 72. 编辑距离
+#### 72. 编辑距离
 
 LeetCode地址: https://leetcode-cn.com/problems/edit-distance/
 
-### 76. 最小覆盖子串
+#### 76. 最小覆盖子串
 
 LeetCode地址: https://leetcode-cn.com/problems/minimum-window-substring/
 
-### 84. 柱状图中最大的矩形
+#### 84. 柱状图中最大的矩形
 
 LeetCode地址: https://leetcode-cn.com/problems/largest-rectangle-in-histogram/
 
-### 85. 最大矩形
+#### 85. 最大矩形
 
 LeetCode地址: https://leetcode-cn.com/problems/maximal-rectangle/
 
-### 124. 二叉树中的最大路径和
+#### 124. 二叉树中的最大路径和
 
 LeetCode地址: https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
 
-### 128. 最长连续序列
+#### 128. 最长连续序列
 
 LeetCode地址: https://leetcode-cn.com/problems/longest-consecutive-sequence/
 
-### 239. 滑动窗口最大值
+#### 239. 滑动窗口最大值
 
 LeetCode地址: https://leetcode-cn.com/problems/sliding-window-maximum/
 
-### 297. 二叉树的序列化与反序列化
+#### 297. 二叉树的序列化与反序列化
 
 LeetCode地址: https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
 
-### 301. 删除无效的括号
+#### 301. 删除无效的括号
 
 LeetCode地址: https://leetcode-cn.com/problems/remove-invalid-parentheses/
 
-### 312. 戳气球
+#### 312. 戳气球
 
 LeetCode地址: https://leetcode-cn.com/problems/burst-balloons/
 
 
-## 其他
+### 其他
 
-### 1. 逆序字符串
+#### 1. 逆序字符串
 
 str_1 = "helloworld"，str_2 = "oworldhell"，func(str_1, str_2)  ->  true / false
 
@@ -1752,7 +1746,7 @@ def reverse(str1, str2) -> bool:
     return False
 ```
 
-### 2. 合并N个有序数组
+#### 2. 合并N个有序数组
 
 ```
 import heapq
@@ -1783,7 +1777,7 @@ def list_merge(*lists):
     return result
 ```
 
-### 3. json字符串解析
+#### 3. json字符串解析
 
 ```
 {
