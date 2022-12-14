@@ -2,17 +2,14 @@
 
 * 学习路线
    * [学习路线 2020](articles/roadmap-2020.md)
-
 * 概念
    * [抽象类和接口的区别](articles/concept-abstract-interface.md)
    * [阻塞|非阻塞 - 异步|同步](articles/concept-ze-fze.md)
    * [子进程和线程的区别](articles/concept-thread-subprocess.md)
    * [进程与线程](articles/concept-process-thread.md)
    * [僵尸进程、孤儿进程、守护进程](articles/zombie-orphan-daemons.md)
-
 * 前端
    * [Datatables - 基础配置](articles/datatables.md)
-
 * 后端
    * 架构
       * [流量治理组件 - Sentinel](articles/sentinel.md)
@@ -25,6 +22,8 @@
       * [秒杀系统设计 06 - 影响性能的因素有哪些？又该如何提高系统的性能？](articles/miaosha-06.md)
       * [秒杀系统设计 07 - 秒杀系统“减库存”设计的核心逻辑](articles/miaosha-07.md)
       * [秒杀系统设计 08 - 准备Plan B：如何设计兜底方案?](articles/miaosha-08.md)
+   * 微服务
+      * [分布式锁](articles/distributed-lock.md)
    * 操作系统
       * Linux
         * [用户态和内核态](articles/linux-yht-nht.md)
@@ -60,6 +59,11 @@
    * Web 开发
       * [HTTP POST 数据提交方式](articles/http-post-method.md)
       * [Session 共享解决方案](articles/share-session.md)
+   * Web 服务器
+      * Nginx
+        * [Nginx 系列 - 开机启动](articles/nginx-start-poweron.md)
+      * Apache
+        * [Apache 2.4 配置虚拟主机](articles/apache-virtualhost.md)
    * 数据库
       * Mysql
         * [Mysql 系列 - 锁](articles/mysql-lock.md)
@@ -81,27 +85,19 @@
    * 消息队列
       * [MQ 如何处理消息丢失](articles/mq-msg-lost.md)
       * [Kafka 文件存储机制](articles/kafka-save.md)
-   * Web服务器
-      * Nginx
-        * [Nginx 系列 - 开机启动](articles/nginx-start-poweron.md)
-      * Apache
-        * [Apache 2.4 配置虚拟主机](articles/apache-virtualhost.md)
-   * 微服务
-      * [分布式锁](articles/distributed-lock.md)
    * 版本管理
       * Git
         * [Git 常用命令](articles/git-command.md)
-   * 语言
-      * PHP
-        * [PHP 系列 - 垃圾回收机制](articles/php-gc.md)
-        * [PHP 系列 - FCGI 与 FPM](articles/php-fpm-fcgi.md)
-        * [PHP 系列 - $\_SERVER](articles/php-server.md)
-        * [PHP 系列 - self,final,static,this,parent](articles/php-keywords.md)
-        * [PHP 系列 - 变量的内部存储（值和类型）](articles/php-varinternstore-01.md)
-        * [PHP 系列 - 变量的内部存储（引用和计数）](articles/php-varinternstore-02.md)
-        * [Laravel 系列 - 后台用户认证](articles/php-laravel-adminlogin.md)
-        * [Laravel 系列 - 用户登录实现及注册源码初探](articles/php-laravel-userlogin.md)
-        * [Laravel 系列 - 理解控制反转(IoC)和依赖注入(DI)](articles/php-laravel-ioc-di.md)
+   * 编程语言
+      * Golang
+        * [GO 系列 - 学习资料](articles/go-series.md)
+        * [GO 系列 - 数据类型](articles/go-datatype.md)
+        * [GO 系列 - 垃圾回收机制](articles/go-gc.md)
+        * [GO 库 - ants](articles/go-lib-ants.md)
+        * [GO 库 - structs](https://github.com/fatih/structs)
+        * [GO 库 - mergo](https://github.com/imdario/mergo)
+        * [GO 库 - resty](https://github.com/go-resty/resty)
+        * [GO 库 - validator](articles/go-validator.md)
       * Python
         * [Python 文档](https://docs.python.org/zh-cn/3/library/index.html)
         * [Python 库 - requests 会话对象](articles/py-requests-session.md)
@@ -118,16 +114,17 @@
         * [Python 系列 - librdkafka 的安装和使用](articles/librdkafka.md)
         * [Python 系列 - 项目部署 Nginx + Tornado + Supervisor](articles/py-supervisor-nginx.md)
         * [Tornado5.0.2 翻译文档 - Tornado](articles/tornado502-start.md)
-      * Golang
-        * [GO 系列 - 学习资料](articles/go-series.md)
-        * [GO 系列 - 数据类型](articles/go-datatype.md)
-        * [GO 系列 - 垃圾回收机制](articles/go-gc.md)
-        * [GO 库 - ants](articles/go-lib-ants.md)
-        * [GO 库 - structs](https://github.com/fatih/structs)
-        * [GO 库 - mergo](https://github.com/imdario/mergo)
-        * [GO 库 - resty](https://github.com/go-resty/resty)
-        * [GO 库 - validator](articles/go-validator.md)
+      * PHP
+        * [PHP 系列 - 垃圾回收机制](articles/php-gc.md)
+        * [PHP 系列 - FCGI 与 FPM](articles/php-fpm-fcgi.md)
+        * [PHP 系列 - $\_SERVER](articles/php-server.md)
+        * [PHP 系列 - self,final,static,this,parent](articles/php-keywords.md)
+        * [PHP 系列 - 变量的内部存储（值和类型）](articles/php-varinternstore-01.md)
+        * [PHP 系列 - 变量的内部存储（引用和计数）](articles/php-varinternstore-02.md)
+        * [Laravel 系列 - 后台用户认证](articles/php-laravel-adminlogin.md)
+        * [Laravel 系列 - 用户登录实现及注册源码初探](articles/php-laravel-userlogin.md)
+        * [Laravel 系列 - 理解控制反转(IoC)和依赖注入(DI)](articles/php-laravel-ioc-di.md)
 * 算法
+   * [LeetCode 热题 100](articles/leetcode-hot-100.md)
    * [排序算法总结](articles/sort-algorithm.md)
    * [约瑟夫环](articles/joseph-ring.md)
-
