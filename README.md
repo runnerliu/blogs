@@ -99,6 +99,7 @@
         * [GO 库 - resty](https://github.com/go-resty/resty)
         * [GO 库 - validator](articles/go-validator.md)
       * Python
+        * [迭代器的实现原理](articles/py-iterator.md)
         * [Python 文档](https://docs.python.org/zh-cn/3/library/index.html)
         * [Python 库 - requests 会话对象](articles/py-requests-session.md)
         * [Python 库 - functools lru_cache](articles/py-functools-cache.md)
