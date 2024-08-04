@@ -1,7 +1,7 @@
 # 博客列表
 
 * 学习路线
-   * [学习路线 2020](articles/roadmap-2020.md)
+   * [学习路线(持续更新)](articles/roadmap.md)
 * 概念
    * [抽象类和接口的区别](articles/concept-abstract-interface.md)
    * [阻塞|非阻塞 - 异步|同步](articles/concept-ze-fze.md)

@@ -15,39 +15,4 @@
 
 ### 学习总结
 
-#### 工程结构
-
-```
-.
-├── app-name
-│   ├── adapter
-│   │   ├── in
-│   │   │   └── web
-│   │   └── out
-│   │       └── persistence
-│   ├── application
-│   │   ├── port
-│   │   │   ├── in
-│   │   │   └── out
-│   │   └── service
-│   └── domain
-├── common
-└── main
-
-app-name：业务名称
- - adapter：适配器
-   - in：输入，与外界进行交互
-     - web
-   - out：输出，与数据库、缓存等进行交互，是 application.port.out 的持久化实现
-     - persistence：持久化实现
- - application：应用
-   - port：端口，一般定义为接口，面向接口编程，向适配器提供接口
-     - in：向适配器提供处理接口
-     - out：输出端口，向 service 模块中提供持久化等接口
-   - service：输入输出端口的具体业务实现
- - domain：领域模型，从业务中抽象出的领域对象
-common：基础设施
-main：主文件
-```
-
-
+- [DDD 实践学习](./ddd-practice.md)
