@@ -19,7 +19,7 @@
 ### DevOps
 
 - [Devops](roadmap-devops.md)
-  - [Docker](roadmap-docker.md)
+- [Docker](roadmap-docker.md)
 
 ### Databases
 
