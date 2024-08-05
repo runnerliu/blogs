@@ -27,7 +27,7 @@ nunu是基于以下流行的开源库组建而成的：
 
 Nunu采用了经典的分层架构。同时，为了更好地实现模块化和解耦，采用了依赖注入框架Wire。
 
-<img src="/Users/william/personal/blogs/images/2024-08-04T185300.png" alt="2024-08-04T185300" style="zoom:50%;" />
+<img src="../images/2024-08-04T185300.png" alt="2024-08-04T185300" style="zoom:50%;" />
 
 ### 安装
 
@@ -188,3 +188,4 @@ nunu run
 - web：该模块包含了前端相关的文件，如HTML、CSS和JavaScript等。
 
 此外，还包含了一些其他的文件和目录，如授权文件、构建文件、README等。整体上，该项目的架构清晰，各个模块之间的职责明确，便于理解和维护。
+
