@@ -153,3 +153,5 @@ Read More:
 > [搞懂Go垃圾回收](https://juejin.cn/post/6844903917650722829)
 >
 > [Go 语言 GC 机制 · Analyze](https://wingsxdu.com/post/golang/gc/)
+>
+> [垃圾回收](https://goguide.ryansu.tech/guide/concepts/golang/21-gc.html)
