@@ -130,6 +130,7 @@
       * [Laravel 系列 - 理解控制反转(IoC)和依赖注入(DI)](articles/php-laravel-ioc-di.md)
   * 最佳实践
     * [接口性能优化](articles/interface-performance-optimization.md)
+    * [CPU占用问题](articles/cpu-problem.md)
 * 算法
   * [LeetCode 热题 100](articles/leetcode-hot-100.md)
   * [排序算法总结](articles/sort-algorithm.md)
