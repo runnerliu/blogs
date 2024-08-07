@@ -27,7 +27,7 @@ Step 3. Pick a download method
 
 将文件打包下载后，因为一般页面都是在 web 应用中使用，所以笔者创建了一个简单的 [Tornado](http://www.tornadoweb.org/en/stable/) 应用，将所有的静态文件放到了 `/static` 目录下：
 
- ![2018-05-27T222132](../images/2018-05-27T222132.png)
+![2018-05-27T222132](../images/2018-05-27T222132.png)
 
 **注意：** `jquery.js` 文件是必需的，目前使用 `3.0` 版本。
 
