@@ -91,11 +91,13 @@
   * 编程语言
     * Golang
       * [GO 系列 - 学习资料](articles/go-series.md)
+      * [GO 系列 - 项目命名规范](articles/go-named.md)
       * [GO 系列 - 数据类型](articles/go-datatype.md)
       * [GO 系列 - 垃圾回收机制](articles/go-gc.md)
       * [GO 系列 - 垃圾回收](articles/go-gc2.md)
       * [GO 系列 - Panic & Recover](articles/go-panic-recover.md)
       * [Go 系列 - GMP调度器](articles/go-gmp.md)
+      * [GO 系列 - Context](articles/go-context.md)
       * [GO 库 - ants](articles/go-lib-ants.md)
       * [GO 库 - structs](https://github.com/fatih/structs)
       * [GO 库 - mergo](https://github.com/imdario/mergo)
